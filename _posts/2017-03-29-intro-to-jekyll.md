@@ -10,6 +10,7 @@ comments: true
 image:
   feature:
 date: 2017-03-29T04:32:36.834Z
+comments: true
 ---
 
 I have heard of GitHub's free hosting of static Jekyll pages in the past, but I never bothered learning how to put a Jekyll site together. That was the case until last weekend.  I strapped myself down on my chair and began to build this personal site/blog, which was long overdue.  So, after getting a functional version of the site running, here I am, preaching the gospel of Jekyll and GitHub Pages.

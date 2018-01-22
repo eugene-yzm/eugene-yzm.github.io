@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "The start of a beautiful something"
+title                    : "An Occasional Thought"
 title_separator          : "-"
 name                     : "Eugene Ma"
 description              : "My amazing website."
@@ -18,9 +18,11 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "disqus"
+  # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "eugeneyzm"
+    # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -44,6 +46,9 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+search: true
+search_full_content: true
+
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -79,7 +84,7 @@ analytics:
 author:
   name             : "Eugene Ma"
   avatar           : "/assets/images/me_avatar.jpg"
-  bio              : "Budding Software Engineer"
+  bio              : "Human-to-Machine Interpreter"
   location         : "Waterloo, Canada"
   email            : "ung.m888@gmail.com"
   uri              :
